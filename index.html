@@ -3,273 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShadowByte Empire</title>
+    <title>ShadowByte Empire | Premium Web Development</title>
     
-    <meta name="google-site-verification" content="YAHAN_APNA_CODE_CHIPKAO" />
+    <meta name="google-site-verification" content="YAHAN_APNA_CODE_REPLACE_KAR_LENA" />
 
     <link rel="stylesheet" href="style.css">
-</head>
-        /* Colors: Black, Purple, White */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #0b0b0e; /* Deep Black */
-            color: #ffffff; /* White Text */
-            overflow-x: hidden;
-        }
-
-        /* Neon Glow Effect style */
-        .purple-glow {
-            text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
-        }
-
-        /* Header / Navbar */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 8%;
-            border-bottom: 2px solid #2e1065; /* Dark Purple Border */
-            background-color: #12121a;
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-            color: #ffffff;
-            letter-spacing: 2px;
-        }
-
-        .logo span {
-            color: #a855f7; /* Neon Purple */
-        }
-
-        /* Hero Section */
-        .hero {
-            min-height: 70vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0 20px;
-            background: radial-gradient(circle, rgba(46,16,101,0.2) 0%, rgba(11,11,14,1) 70%);
-        }
-
-        .hero h1 {
-            font-size: 56px;
-            margin-bottom: 15px;
-            letter-spacing: 1px;
-        }
-
-        .hero p {
-            font-size: 20px;
-            color: #cbd5e1;
-            max-width: 600px;
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            background-color: #a855f7;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #c084fc;
-            box-shadow: 0 0 25px rgba(168, 85, 247, 0.8);
-        }
-
-        /* Services Section */
-        .services {
-            padding: 60px 8%;
-            text-align: center;
-        }
-
-        .services h2 {
-            font-size: 36px;
-            margin-bottom: 40px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 25px;
-        }
-
-        .card {
-            background-color: #12121a;
-            padding: 30px 20px;
-            border-radius: 10px;
-            border: 1px solid #2e1065;
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: #a855f7;
-            box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
-        }
-
-        .card h3 {
-            color: #a855f7;
-            margin-bottom: 10px;
-            font-size: 22px;
-        }
-
-        /* Owners Section */
-        .owners {
-            background-color: #12121a;
-            padding: 60px 8%;
-            text-align: center;
-            border-top: 2px solid #2e1065;
-            border-bottom: 2px solid #2e1065;
-        }
-
-        .owners h2 {
-            margin-bottom: 35px;
-            font-size: 36px;
-        }
-
-        .owner-flex {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-            flex-wrap: wrap;
-        }
-
-        .owner-box {
-            background: #0b0b0e;
-            padding: 20px 40px;
-            border-radius: 8px;
-            border-left: 4px solid #a855f7;
-            min-width: 250px;
-        }
-
-        .owner-box h3 {
-            font-size: 22px;
-            margin-bottom: 5px;
-        }
-
-        .owner-box p {
-            color: #a855f7;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Contact Section */
-        .contact {
-            padding: 60px 8%;
-            text-align: center;
-        }
-
-        .contact h2 {
-            margin-bottom: 20px;
-            font-size: 36px;
-        }
-
-        .contact-info {
-            margin-top: 30px;
-            font-size: 18px;
-        }
-
-        .contact-info p {
-            margin: 15px 0;
-        }
-
-        .contact-info a {
-            color: #a855f7;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0b0b0e;
-            color: #6b7280;
-            font-size: 14px;
-            border-top: 1px solid #1e1b4b;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <div class="logo">Shadow<span>Byte</span></div>
+        <div class="logo">&lt;ShadowByte <span>Empire/&gt;</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Our Work</a>
+            <a href="#contact" class="btn-nav">Let's Talk</a>
+        </nav>
     </header>
 
     <section class="hero">
-        <h1 class="purple-glow">SHADOWBYTE EMPIRE</h1>
-        <p>Next-Gen Digital Solutions. We build high-performance websites, apps, games, and custom coding projects at rock-bottom prices.</p>
-        <a href="#contact" class="btn">Get Your Project @ ₹1000</a>
+        <div class="hero-content">
+            <h1>WE BUILD DIGITAL EMPIRES</h1>
+            <p>High-performance websites, premium designs, and full-stack development. Crafted by <span>ShadowByte</span>.</p>
+            <a href="#work" class="btn">View Our Projects</a>
+        </div>
     </section>
 
-    <section class="services">
-        <h2>Our Services</h2>
+    <section id="services" class="services">
+        <h2>WHAT WE DO</h2>
         <div class="grid">
             <div class="card">
-                <h3>Websites</h3>
-                <p>Modern, responsive, and fully optimized websites for your business.</p>
+                <h3>💻 Web Development</h3>
+                <p>Clean, modern, and lightning-fast websites tailored for your business needs.</p>
             </div>
             <div class="card">
-                <h3>Apps</h3>
-                <p>Powerful and user-friendly mobile applications tailored for you.</p>
+                <h3>📱 Mobile Responsive</h3>
+                <p>Websites that look stunning and function perfectly on smartphones and tablets.</p>
             </div>
             <div class="card">
-                <h3>Games</h3>
-                <p>Exciting 2D/3D games built with custom logic and smooth graphics.</p>
-            </div>
-            <div class="card">
-                <h3>Coding Projects</h3>
-                <p>Custom Python scripts, automations, and tech solutions.</p>
+                <h3>🚀 SEO & Indexing</h3>
+                <p>Optimizing your brand to rank top on Google Search Console and local searches.</p>
             </div>
         </div>
     </section>
 
-    <section class="owners">
-        <h2>Leadership / Owners</h2>
-        <div class="owner-flex">
-            <div class="owner-box">
-                <h3>Prajwal Saini</h3>
-                <p>Co-Founder & Tech Head</p>
-            </div>
-            <div class="owner-box">
-                <h3>Naman Agarwal</h3>
-                <p>Co-Founder & Business Head</p>
+    <section id="work" class="work">
+        <h2>OUR LATEST WORK</h2>
+        <div class="grid">
+            <div class="card project-card">
+                <h3>BRO GYM & FITNESS</h3>
+                <p>A hardcore premium gym website delivered successfully with custom features.</p>
+                <a href="https://shadowbyte2727-a11y.github.io/BRO-GYM-/" target="_blank" class="project-link">Live Preview →</a>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2 class="purple-glow">Let's Build Together</h2>
-        <p>Fix price: ₹1,000 per build. Connect with us right now!</p>
-        
-        <div class="contact-info">
-            <p>📧 Email: <a href="mailto:shadowbyte2727@gmail.com">shadowbyte2727@gmail.com</a></p>
-            <p>💬 WhatsApp (Prajwal): <a href="https://wa.me/916375107307" target="_blank">+91 6375107307</a></p>
-            <p>💬 WhatsApp (Naman): <a href="https://wa.me/919887604681" target="_blank">+91 9887604681</a></p>
-        </div>
+        <h2>START YOUR PROJECT</h2>
+        <p>Ready to scale your business with a premium website? Get in touch today.</p>
+        <a href="mailto:shadowbyte2727@gmail.com" class="btn">Hire ShadowByte</a>
     </section>
 
-    <footer>
-        &copy; 2026 ShadowByte. All Rights Reserved. Created by Prajwal & Naman.
-    </footer>
-
 </body>
-</html>
+        </html>            
